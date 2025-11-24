@@ -1,7 +1,7 @@
 id=meta-overlayfs
 metamodule=1
 name=OverlayFS MetaModule
-version=1.2.0
-versionCode=1200
+version=1.2.1
+versionCode=1201
 author=KernelSU Developers
 description=An implementation of a metamodule using OverlayFS for KernelSU
