@@ -74,9 +74,9 @@ jobs:
           mv target/meta-overlayfs-*.zip meta-overlayfs-${{ steps.version.outputs.VERSION }}.zip
 
       - name: Create Release
-        uses: softprops/action-gh-release@v2
+        uses: KernelSU-Modules-Repo/module_release@main
         with:
-          files: meta-overlayfs-${{ steps.version.outputs.VERSION }}.zip
+          file: meta-overlayfs-${{ steps.version.outputs.VERSION }}.zip
           body_path: meta-overlayfs-changelog.md
           generate_release_notes: true
 
